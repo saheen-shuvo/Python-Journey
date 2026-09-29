@@ -39,3 +39,19 @@ data_array = bytearray(b"Hello")  # bytearray
 data_view = memoryview(b"Hello")  # memoryview
 
 #We dont need to declare the data type of a variable explicitly in Python. The interpreter automatically infers the data type based on the value assigned to the variable. However, you can use the type() function to check the data type of a variable.
+
+#To check the data type of a variable, you can use the type() function. For example:
+print(type(age))  # Output: <class 'int'>
+print(type(height))  # Output: <class 'float'>
+print(type(complex_num))  # Output: <class 'complex'>
+print(type(name))  # Output: <class 'str'>
+print(type(is_student))  # Output: <class 'bool'>
+print(type(fruits))  # Output: <class 'list'>
+print(type(coordinates))  # Output: <class 'tuple'>
+print(type(numbers))  # Output: <class 'range'>
+print(type(person))  # Output: <class 'dict'>
+print(type(unique_numbers))  # Output: <class 'set'>
+print(type(frozen_unique_numbers))  # Output: <class 'frozenset'>
+print(type(data))  # Output: <class 'bytes'>
+print(type(data_array))  # Output: <class 'bytearray'>
+print(type(data_view))  # Output: <class 'memoryview'>
