@@ -12,11 +12,11 @@ for i in range(t):
     numbers[i] = int(numbers[i])
     if numbers[i] % 2 == 0:
         even_count += 1
-    if numbers[i] % 2 != 0:
+    elif numbers[i] % 2 != 0:
         odd_count += 1
     if numbers[i] > 0:
         positive_count += 1
-    if numbers[i] < 0:
+    elif numbers[i] < 0:
         negative_count += 1
 
 print("Even:", even_count)
