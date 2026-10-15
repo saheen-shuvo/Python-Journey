@@ -40,7 +40,7 @@ name, age, city = get_user_info()
 print(f"Name: {name}, Age: {age}, City: {city}")
 
 # train_test_split function from sklearn library returns multiple values, which can be unpacked into separate variables
-from sklearn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split # type: ignore
 
 # Example usage of train_test_split
 X = [[1, 2], [3, 4], [5, 6], [7, 8]]
